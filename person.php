@@ -1,9 +1,10 @@
 <?php
 class person
 {
-    public $name;
-    public $email;
-    public $password;
+    public $name="Soyam";
+    public $email="shrestha.soyam111@gmail.com";
+    public $password="soaym123";
 }
-$p1= new person;
+$student= new person;
+echo $student->name;
 ?>
